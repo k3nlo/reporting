@@ -87,7 +87,7 @@ public class ReportingApplication {
 			writer.writeToFile(qSeparator);
 		}
 
-		String strSeparator = "=".repeat(120);
+		String strSeparator = "=".repeat(100);
 		System.out.println(strSeparator);
 		System.out.println("The report has been completed and is available at: "+ file.getAbsolutePath());
 		System.out.println(strSeparator);
