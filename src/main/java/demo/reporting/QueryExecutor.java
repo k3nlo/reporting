@@ -6,7 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JdbcQuerry {
+public class QueryExecutor {
+
   // JDBC driver name and database URL
   static final String JDBC_DRIVER = "org.h2.Driver";
   static final String DB_URL = "jdbc:h2:mem:testdb";
@@ -15,7 +16,17 @@ public class JdbcQuerry {
   static final String USER = "sa";
   static final String PASS = "";
 
-  public static void executeQuerry(String sqlQuerry, String [] colLabels){
+  private Writer writer;
+  private Query query;
+  private ResultSet resultSet;
+
+  //ctor
+  public QueryExecutor(Writer writer, Query query) {
+    this.writer = writer;
+    this.query = query;
+  }
+
+  public void executeQuery(){
     Connection conn = null;
     Statement stmt = null;
     try {
@@ -23,20 +34,18 @@ public class JdbcQuerry {
       Class.forName(JDBC_DRIVER);
 
       //STEP 2: Open a connection
-      System.out.println("Connecting to database...");
+      System.out.print("Connecting to database... ");
       conn = DriverManager.getConnection(DB_URL,USER,PASS);
 
       //STEP 3: Execute a query
-      System.out.println("Querying database...");
+      System.out.print("Querying database... ");
       stmt = conn.createStatement();
-//      String sql =  "SELECT * FROM MANUFACTURER";
-      ResultSet resultSet = stmt.executeQuery(sqlQuerry);
-//      System.out.println("Created table in given database...");
+      resultSet = stmt.executeQuery(query.getSql());
 
-      extractResult(resultSet, colLabels);
+      // STEP 4: Extract information
+      processResults();
 
-
-      // STEP 4: Clean-up environment
+      // STEP 5: Clean-up environment
       stmt.close();
       conn.close();
     } catch(SQLException se) {
@@ -57,20 +66,20 @@ public class JdbcQuerry {
         se.printStackTrace();
       } //end finally try
     } //end try
-    System.out.println("Goodbye!");
+    System.out.println("Query completed!");
   }
 
-  public static void extractResult (ResultSet resultSet, String [] colLabels) throws SQLException {
+  public void processResults() throws SQLException {
     //print labels
-    printColLabels(colLabels);
+    writeColumnLabels();
 
     // STEP 4: Extract data from result set row by row
     while(resultSet.next()) {
       String strResultLine="";
-      // Retrieve by column name  EACH QUERRY HAS ITS OWN SET OF COLUMN: ARRAY OF COLUMNS
-      for(int i=0; i<colLabels.length; i++){
-        String content = resultSet.getString(colLabels[i]);
-        if(i == colLabels.length-1){ //last element
+      // Retrieve by column name  EACH QUERY HAS ITS OWN SET OF COLUMN: ARRAY OF COLUMNS
+      for(int i=0; i<query.getColumns().length; i++){
+        String content = resultSet.getString(query.getColumns()[i]);
+        if(i == query.getColumns().length-1){ //last element
 //          System.out.print(content+"\n");
           strResultLine+=content+"\n";
         } else{
@@ -79,25 +88,22 @@ public class JdbcQuerry {
 
         }
       }
-
-      Writer.writeToFile(strResultLine);
-
+      writer.writeToFile(strResultLine);
     }
-//    return null; //FIXME: proper return
   }
 
-  public static void printColLabels(String[] columnLabels){
+  public void writeColumnLabels(){
     String strLine="";
-    for(int i=0; i<columnLabels.length; i++){
-      if(i == columnLabels.length-1){ //last label
+    for(int i=0; i<query.getColumns().length; i++){
+      if(i == query.getColumns().length-1){ //last label
 //        System.out.print(columnLabels[i]+"\n");
-        strLine+=columnLabels[i]+"\n";
+        strLine+=query.getColumns()[i]+"\n";
       } else{
 //        System.out.print(columnLabels[i]+",");
-        strLine+=columnLabels[i]+",";
+        strLine+=query.getColumns()[i]+",";
       }
     }
     // print in file
-    Writer.writeToFile(strLine);
+    writer.writeToFile(strLine);
   }
 }

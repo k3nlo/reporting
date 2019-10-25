@@ -165,7 +165,7 @@ Volvo,4,14
 Volvo,5,7
 Volvo,6,5
 ============================================================
-Rank the count of cars by MPG in the following ranges (1 -15, 15-20, 21-25, 26+) : 
+Rank the count of cars by MPG in ranges (1-15, 15-20, 21-25, 26+) : 
 ============================================================
 MPG RANGE,# CARS
 21-25,410

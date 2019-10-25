@@ -13,15 +13,6 @@ class ReportingApplicationTests {
 	void contextLoads() {
 	}
 
-//	@Autowired
-//	private ManufacturerService manufacturerService;
-//	@Test
-//	public void whenApplicationStarts_thenHibernateCreatesInitialRecords() {
-//		List<Manufacturer> manufacturers = manufacturerService.list();
-//
-//		Assert.assertEquals(manufacturers.size(), 43);
-//	}
-
 }
 
 
