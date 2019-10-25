@@ -1,0 +1,1384 @@
+Count of cars produced by each manufacturer: 
+============================================================
+MANUFACTURER,# CARS
+ALFA ROMEO,1
+Acura,12
+Aston Martin Lagonda Ltd,10
+Audi,41
+BMW,107
+Bentley,7
+Buick,20
+CHEVROLET,1
+Cadillac,26
+Chevrolet,86
+Chrysler,11
+Dodge,36
+FIAT,11
+Ferrari,12
+Ford,86
+GMC,43
+HYUNDAI MOTOR COMPANY,43
+Honda,29
+INFINITI,25
+Jaguar,21
+Jeep,38
+KIA MOTORS CORPORATION,41
+LEXUS,35
+Lamborghini,4
+Land Rover,11
+Lincoln,23
+MASERATI,8
+MAZDA,22
+McLaren,4
+Mercedes-Benz,76
+Mini,34
+Mitsubishi Motors Corporation,13
+NISSAN,38
+Pagani Automobili S.p.A.,1
+Porsche,68
+RAM,11
+Rolls-Royce Motor Cars Limited,8
+Roush,4
+SCION,8
+Subaru,21
+TOYOTA,50
+Volkswagen,33
+Volvo,26
+============================================================
+Number of manufacturers per country: 
+============================================================
+COUNTRY,# MANUFACTURERS
+Germany,6
+Hong Kong,1
+Italy,6
+Japan,8
+South Korea,2
+Sweden,1
+UK,6
+USA,13
+============================================================
+What country produced the most fuel efficient Car: 
+============================================================
+COUNTRY,CAR,COMB FE
+Japan,PRIUS Eco,56
+============================================================
+Count of cars produced by each Manufacturer by Cylinder: 
+============================================================
+MANUFACTURER,# CYLINDERS,# CARS
+ALFA ROMEO,4,1
+Acura,4,2
+Acura,6,10
+Aston Martin Lagonda Ltd,12,4
+Aston Martin Lagonda Ltd,8,6
+Audi,12,1
+Audi,4,21
+Audi,6,14
+Audi,8,5
+BMW,4,32
+BMW,6,52
+BMW,8,23
+Bentley,12,3
+Bentley,8,4
+Buick,4,15
+Buick,6,5
+CHEVROLET,4,1
+Cadillac,4,7
+Cadillac,6,16
+Cadillac,8,3
+Chevrolet,4,41
+Chevrolet,6,15
+Chevrolet,8,30
+Chrysler,4,2
+Chrysler,6,8
+Chrysler,8,1
+Dodge,10,1
+Dodge,4,10
+Dodge,6,11
+Dodge,8,14
+FIAT,4,11
+Ferrari,12,8
+Ferrari,8,4
+Ford,3,3
+Ford,4,41
+Ford,6,34
+Ford,8,8
+GMC,4,8
+GMC,6,9
+GMC,8,26
+HYUNDAI MOTOR COMPANY,4,31
+HYUNDAI MOTOR COMPANY,6,10
+HYUNDAI MOTOR COMPANY,8,2
+Honda,4,21
+Honda,6,8
+INFINITI,4,4
+INFINITI,6,17
+INFINITI,8,4
+Jaguar,6,16
+Jaguar,8,5
+Jeep,4,24
+Jeep,6,12
+Jeep,8,2
+KIA MOTORS CORPORATION,4,32
+KIA MOTORS CORPORATION,6,8
+KIA MOTORS CORPORATION,8,1
+LEXUS,4,11
+LEXUS,6,15
+LEXUS,8,9
+Lamborghini,10,2
+Lamborghini,12,2
+Land Rover,4,2
+Land Rover,6,6
+Land Rover,8,3
+Lincoln,4,7
+Lincoln,6,16
+MASERATI,6,5
+MASERATI,8,3
+MAZDA,4,22
+McLaren,8,4
+Mercedes-Benz,12,6
+Mercedes-Benz,3,2
+Mercedes-Benz,4,18
+Mercedes-Benz,6,23
+Mercedes-Benz,8,27
+Mini,4,34
+Mitsubishi Motors Corporation,4,12
+Mitsubishi Motors Corporation,6,1
+NISSAN,4,21
+NISSAN,6,17
+Pagani Automobili S.p.A.,12,1
+Porsche,6,61
+Porsche,8,7
+RAM,4,1
+RAM,6,6
+RAM,8,4
+Rolls-Royce Motor Cars Limited,12,8
+Roush,8,4
+SCION,4,8
+Subaru,4,19
+Subaru,6,2
+TOYOTA,4,25
+TOYOTA,6,15
+TOYOTA,8,10
+Volkswagen,4,29
+Volkswagen,6,4
+Volvo,4,14
+Volvo,5,7
+Volvo,6,5
+============================================================
+Rank the count of cars by MPG in the following ranges (1 -15, 15-20, 21-25, 26+) : 
+============================================================
+MPG RANGE,# CARS
+21-25,410
+26+,390
+15-20,346
+1-15,59
+============================================================
+Rank cars by best performing Combined MPG: 
+============================================================
+BRAND,CAR,COMB FE (MPG)
+TOYOTA,PRIUS Eco,56
+TOYOTA,PRIUS,52
+TOYOTA,PRIUS c,50
+Chevrolet,MALIBU,46
+Volkswagen,Jetta Hybrid,44
+LEXUS,CT 200h,42
+Ford,FUSION HYBRID FWD,42
+HYUNDAI MOTOR COMPANY,Sonata HYBRID SE,42
+TOYOTA,PRIUS v,42
+HYUNDAI MOTOR COMPANY,Sonata HYBRID,41
+TOYOTA,CAMRY HYBRID LE,41
+LEXUS,ES 300h,40
+Lincoln,MKZ HYBRID FWD,40
+TOYOTA,AVALON HYBRID,40
+TOYOTA,CAMRY HYBRID XLE/SE,40
+Ford,C-MAX Hybrid FWD,40
+KIA MOTORS CORPORATION,Optima HYBRID,38
+Honda,CR-Z,37
+SCION,iA,37
+MAZDA,MAZDA 2,37
+KIA MOTORS CORPORATION,Optima HYBRID EX,37
+Mercedes-Benz,Smart fortwo (COUPE),36
+Ford,Fiesta SFE FWD,36
+BMW,328d,36
+Honda,FIT,36
+Mercedes-Benz,Smart fortwo (COUPE),35
+Chevrolet,SPARK,35
+SCION,iA,35
+Chevrolet,CRUZE,35
+Ford,FOCUS FWD,35
+Honda,CIVIC 2Dr,35
+MAZDA,MAZDA 2,35
+NISSAN,VERSA,35
+Honda,CIVIC 4Dr,35
+Honda,CIVIC 4Dr,35
+TOYOTA,COROLLA LE ECO,35
+Honda,FIT,35
+Honda,CR-Z,34
+FIAT,500,34
+Chevrolet,SPARK,34
+BMW,328d xDrive,34
+Chevrolet,CRUZE PREMIER,34
+Honda,CIVIC 2Dr,34
+MAZDA,MAZDA3 4-Door,34
+NISSAN,SENTRA FE+,34
+TOYOTA,COROLLA LE ECO,34
+BMW,328d xDrive Sports Wagon,34
+Mini,MINI COOPER HARDTOP 4 DOOR,33
+Chevrolet,CRUZE,33
+Chevrolet,SONIC,33
+MAZDA,MAZDA3 4-Door,33
+MAZDA,MAZDA3 4-Door,33
+TOYOTA,YARIS,33
+Volkswagen,Jetta,33
+Chevrolet,CRUZE LIMITED ECO,33
+MAZDA,MAZDA3 5-Door,33
+MAZDA,MAZDA3 5-Door,33
+Mercedes-Benz,E 250 BLUETEC,33
+Chevrolet,SONIC 5,33
+LEXUS,NX 300h,33
+TOYOTA,RAV4 HYBRID AWD,33
+Mini,MINI COOPER HARDTOP 2 DOOR,32
+Ford,FOCUS FWD,32
+MAZDA,MAZDA3 4-Door,32
+TOYOTA,YARIS,32
+Volkswagen,Jetta,32
+Dodge,Dart Aero,32
+Dodge,Dart Aero,32
+HYUNDAI MOTOR COMPANY,Elantra,32
+MAZDA,MAZDA 6,32
+MAZDA,MAZDA3 5-Door,32
+NISSAN,SENTRA,32
+SCION,iM,32
+TOYOTA,COROLLA,32
+TOYOTA,COROLLA,32
+HYUNDAI MOTOR COMPANY,Sonata,32
+KIA MOTORS CORPORATION,Optima,32
+Honda,FIT,32
+LEXUS,NX 300h AWD,32
+Mini,Mini Cooper Convertible,31
+Mini,Mini Cooper Convertible,31
+Ford,Fiesta FWD,31
+Ford,Fiesta FWD,31
+Mini,MINI COOPER HARDTOP 2 DOOR,31
+Mini,MINI COOPER HARDTOP 4 DOOR,31
+Chevrolet,SONIC,31
+Ford,FOCUS FWD,31
+Ford,Focus FWD FFV,31
+Honda,CIVIC 2Dr,31
+HYUNDAI MOTOR COMPANY,Accent,31
+HYUNDAI MOTOR COMPANY,Veloster,31
+KIA MOTORS CORPORATION,Rio,31
+KIA MOTORS CORPORATION,Rio,31
+KIA MOTORS CORPORATION,Rio ECO,31
+MAZDA,CX-3 2WD,31
+Subaru,IMPREZA,31
+Chevrolet,CRUZE LIMITED ECO,31
+Chevrolet,MALIBU,31
+Dodge,Dart,31
+Honda,ACCORD,31
+Honda,CIVIC 4Dr,31
+HYUNDAI MOTOR COMPANY,Elantra,31
+HYUNDAI MOTOR COMPANY,Elantra Limited,31
+INFINITI,Q70 HYBRID,31
+KIA MOTORS CORPORATION,Forte,31
+LEXUS,GS 450h,31
+MAZDA,MAZDA 6,31
+MAZDA,MAZDA3 5-Door,31
+Mercedes-Benz,E 250 BLUETEC 4MATIC,31
+NISSAN,ALTIMA,31
+SCION,iM,31
+TOYOTA,COROLLA,31
+TOYOTA,COROLLA,31
+Chevrolet,SONIC 5,31
+Subaru,IMPREZA SPORT,31
+Subaru,IMPREZA WAGON,31
+Honda,HR-V 2WD,31
+Honda,HR-V 2WD,31
+Subaru,CROSSTREK HYBRID,31
+MAZDA,MX-5,30
+MAZDA,MX-5,30
+FIAT,500,30
+FIAT,500,30
+FIAT,500 Abarth,30
+Chevrolet,SONIC,30
+Chevrolet,SONIC RS,30
+Ford,FOCUS FWD,30
+Ford,FOCUS FWD,30
+Ford,Focus FWD FFV,30
+Ford,Focus FWD FFV,30
+HYUNDAI MOTOR COMPANY,Accent,30
+HYUNDAI MOTOR COMPANY,Veloster,30
+INFINITI,Q50 HYBRID,30
+Mercedes-Benz,CLA 250,30
+Mitsubishi Motors Corporation,LANCER,30
+NISSAN,VERSA,30
+NISSAN,VERSA,30
+Volkswagen,Golf,30
+Volvo,S60 FWD,30
+Acura,RLX,30
+Audi,A6 quattro,30
+Audi,A7 quattro,30
+BMW,535d,30
+BMW,535d xDrive,30
+Chevrolet,CRUZE LIMITED,30
+Chevrolet,CRUZE LIMITED,30
+Chevrolet,SONIC 5 RS,30
+Honda,ACCORD,30
+KIA MOTORS CORPORATION,Forte,30
+NISSAN,ALTIMA SR,30
+NISSAN,SENTRA,30
+Subaru,LEGACY,30
+HYUNDAI MOTOR COMPANY,Sonata,30
+KIA MOTORS CORPORATION,Optima FE,30
+Chevrolet,SONIC 5,30
+NISSAN,JUKE,30
+NISSAN,JUKE,30
+Buick,ENCORE,30
+LEXUS,RX 450h,30
+BMW,X3 xDrive28d,30
+LEXUS,RX 450h AWD,30
+Mini,Mini Cooper S Convertible,29
+Mini,Mini Cooper S Hardtop 2 door,29
+Mini,Mini Cooper S Hardtop 4 door,29
+Acura,ILX,29
+Ford,Fiesta ST FWD,29
+HYUNDAI MOTOR COMPANY,Veloster,29
+MAZDA,CX-3 4WD,29
+MAZDA,MAZDA3 4-Door,29
+Mini,Mini Cooper Countryman,29
+Mini,Mini Cooper Paceman,29
+Mini,Mini Cooper S Countryman,29
+Mini,Mini Cooper S Paceman,29
+Volkswagen,Golf,29
+Volkswagen,Jetta,29
+Volkswagen,Jetta,29
+Volvo,S60 Inscription FWD,29
+Buick,LACROSSE,29
+Buick,REGAL,29
+Chevrolet,CRUZE LIMITED,29
+Dodge,Dart,29
+Ford,FUSION FWD,29
+MAZDA,MAZDA 6,29
+MAZDA,MAZDA3 5-Door,29
+Volkswagen,Passat,29
+Volvo,S80 FWD,29
+HYUNDAI MOTOR COMPANY,Sonata SPORT/LIMITED,29
+Volkswagen,Golf SportWagen,29
+Volkswagen,Golf SportWagen,29
+Volvo,V60 FWD,29
+Mercedes-Benz,GLA 250,29
+NISSAN,MURANO Hybrid FWD,29
+Chevrolet,TRAX,29
+Honda,CR-V 2WD,29
+HYUNDAI MOTOR COMPANY,Tucson Eco FWD,29
+MAZDA,CX-5 2WD,29
+MAZDA,CX-5 2WD,29
+Buick,ENCORE AWD,29
+Honda,HR-V 4WD,29
+Honda,HR-V 4WD,29
+Subaru,CROSSTREK,29
+ALFA ROMEO,4C,28
+Mercedes-Benz,SLK 300,28
+SCION,FR-S,28
+Subaru,BRZ,28
+Audi,A3 Cabriolet,28
+Mini,MINI John Cooper Works Hardtop,28
+Volkswagen,Beetle Convertible,28
+Acura,TLX 2WD,28
+BMW,320i,28
+BMW,320i,28
+Chevrolet,SONIC,28
+Chevrolet,SONIC RS,28
+HYUNDAI MOTOR COMPANY,Veloster,28
+INFINITI,Q50 HYBRID AWD,28
+KIA MOTORS CORPORATION,Forte Koup,28
+Mercedes-Benz,C 300,28
+Mini,Mini Cooper S Countryman,28
+Mini,Mini Cooper S Paceman,28
+Mitsubishi Motors Corporation,LANCER,28
+Subaru,IMPREZA,28
+Volkswagen,Beetle,28
+Volkswagen,Beetle,28
+Volkswagen,GTI,28
+Volkswagen,GTI,28
+Audi,A6,28
+Chevrolet,SONIC 5 RS,28
+Chrysler,200,28
+Chrysler,200,28
+Ford,FUSION FWD,28
+HYUNDAI MOTOR COMPANY,Elantra,28
+HYUNDAI MOTOR COMPANY,Elantra,28
+KIA MOTORS CORPORATION,Forte,28
+Mini,Mini Cooper Clubman,28
+Mini,Mini Cooper Clubman,28
+TOYOTA,CAMRY,28
+Audi,A8L,28
+KIA MOTORS CORPORATION,Forte 5,28
+KIA MOTORS CORPORATION,Optima,28
+Chevrolet,SONIC 5,28
+FIAT,500L,28
+NISSAN,JUKE AWD,28
+Subaru,IMPREZA SPORT,28
+Subaru,IMPREZA WAGON,28
+NISSAN,MURANO Hybrid AWD,28
+Buick,ENCORE,28
+FIAT,500X,28
+Honda,HR-V 2WD,28
+NISSAN,ROGUE FWD,28
+NISSAN,ROGUE AWD,28
+Subaru,OUTBACK,28
+TOYOTA,HIGHLANDER HYBRID AWD,28
+TOYOTA,HIGHLANDER HYBRID AWD LE Plus,28
+FIAT,500,27
+FIAT,500 Abarth,27
+Mini,Mini Cooper S Convertible,27
+Audi,A3,27
+Audi,A3 quattro,27
+BMW,228i,27
+BMW,228i Convertible,27
+BMW,228i xDrive,27
+BMW,428i Convertible,27
+Mini,Mini Cooper S Hardtop 2 door,27
+Mini,Mini Cooper S Hardtop 4 door,27
+Audi,A4,27
+BMW,320i xDrive,27
+BMW,328i,27
+BMW,428i Coupe,27
+BMW,428i Gran Coupe,27
+KIA MOTORS CORPORATION,Forte Koup,27
+Mercedes-Benz,C 300 4MATIC,27
+Mercedes-Benz,CLA 250 4MATIC,27
+Mercedes-Benz,CLA 250 4MATIC,27
+Mini,Mini Cooper Countryman,27
+Mini,Mini Cooper Paceman,27
+Mini,Mini Cooper S Countryman All4,27
+Mini,Mini Cooper S Paceman ALL4,27
+Mini,Mini JCW Countryman ALL4,27
+Mini,Mini JCW Paceman ALL4,27
+Mitsubishi Motors Corporation,LANCER,27
+Volkswagen,Beetle,27
+Volkswagen,Beetle Dune,27
+Volkswagen,Jetta,27
+Volkswagen,Jetta,27
+Volvo,S60 FWD,27
+BMW,528i,27
+Chevrolet,CRUZE LIMITED,27
+Chevrolet,MALIBU LIMITED,27
+Dodge,Dart,27
+Dodge,Dart,27
+Dodge,Dart,27
+Dodge,Dart GT,27
+Honda,ACCORD,27
+HYUNDAI MOTOR COMPANY,Elantra GT,27
+HYUNDAI MOTOR COMPANY,Elantra GT,27
+Mini,Mini Cooper S Clubman,27
+KIA MOTORS CORPORATION,Soul,27
+KIA MOTORS CORPORATION,Soul ECO dynamics,27
+NISSAN,JUKE NISMO RS,27
+NISSAN,JUKE NISMO RS AWD,27
+HYUNDAI MOTOR COMPANY,Tucson FWD,27
+Jeep,Renegade 4x2,27
+Mitsubishi Motors Corporation,OUTLANDER 2WD,27
+Mitsubishi Motors Corporation,OUTLANDER SPORT 2WD,27
+Audi,Q5,27
+Chevrolet,TRAX AWD,27
+Honda,CR-V 4WD,27
+HYUNDAI MOTOR COMPANY,Tucson Eco AWD,27
+Jeep,Renegade 4x4,27
+Mercedes-Benz,GLA 250 4MATIC,27
+Mercedes-Benz,GLA 250 4MATIC,27
+Subaru,FORESTER,27
+Audi,TT Roadster quattro,26
+BMW,Z4 sDrive28i,26
+BMW,Z4 sDrive28i,26
+Porsche,Boxster,26
+Porsche,Cayman,26
+Audi,A3 Cabriolet quattro,26
+Audi,A5 quattro,26
+Audi,S3,26
+Audi,TT Coupe quattro,26
+BMW,228i,26
+BMW,228i xDrive Convertible,26
+LEXUS,RC 200t,26
+Mini,MINI John Cooper Works Hardtop,26
+Volkswagen,Beetle Convertible,26
+Volkswagen,Beetle Convertible,26
+Audi,A4 quattro,26
+BMW,328i,26
+BMW,328i xDrive,26
+BMW,340i,26
+BMW,340i xDrive,26
+BMW,428i Coupe,26
+BMW,428i xDrive Coupe,26
+BMW,428i xDrive Gran Coupe,26
+Cadillac,ATS,26
+Cadillac,ATS,26
+LEXUS,IS 200t,26
+Mercedes-Benz,AMG CLA 45 4MATIC,26
+Mini,Mini Cooper S Countryman All4,26
+Mini,Mini Cooper S Paceman ALL4,26
+Mini,Mini JCW Countryman ALL4,26
+Mini,Mini JCW Paceman ALL4,26
+Mitsubishi Motors Corporation,LANCER 4WD,26
+SCION,tC,26
+SCION,tC,26
+Volkswagen,Beetle,26
+Audi,A6 quattro,26
+BMW,528i xDrive,26
+BMW,ActiveHybrid 5,26
+Chevrolet,MALIBU,26
+Dodge,Dart GT,26
+Ford,FUSION FWD,26
+Ford,FUSION FWD,26
+Honda,ACCORD,26
+INFINITI,Q50,26
+LEXUS,GS 200t,26
+Lincoln,MKZ FWD,26
+Mini,Mini Cooper S Clubman,26
+NISSAN,ALTIMA 3.5,26
+BMW,328i xDrive Gran Turismo,26
+BMW,X1 xDrive28i,26
+HYUNDAI MOTOR COMPANY,Sonata,26
+KIA MOTORS CORPORATION,Optima FE,26
+BMW,328i xDrive Sports Wagon,26
+KIA MOTORS CORPORATION,Soul,26
+KIA MOTORS CORPORATION,Soul,26
+Chevrolet,EQUINOX FWD,26
+Chevrolet,EQUINOX FWD,26
+Ford,ESCAPE FWD,26
+GMC,TERRAIN FWD,26
+GMC,TERRAIN FWD,26
+HYUNDAI MOTOR COMPANY,Tucson FWD,26
+Jeep,Compass FWD,26
+Jeep,Patriot FWD,26
+TOYOTA,RAV4,26
+TOYOTA,RAV4 LE/XLE,26
+Volvo,XC60 FWD,26
+Volvo,XC70 FWD,26
+Audi,Q5 Hybrid,26
+Buick,ENCORE AWD,26
+HYUNDAI MOTOR COMPANY,Tucson AWD,26
+MAZDA,CX-5 4WD,26
+Mitsubishi Motors Corporation,OUTLANDER 4WD,26
+Mitsubishi Motors Corporation,OUTLANDER SPORT 4WD,26
+Subaru,CROSSTREK,26
+INFINITI,QX60 Hybrid FWD,26
+BMW,X5 xDrive 35d,26
+INFINITI,QX60 Hybrid AWD,26
+Mercedes-Benz,GLE 350 d 4MATIC,26
+Porsche,Boxster GTS,25
+Porsche,Cayman GTS,25
+SCION,FR-S,25
+Subaru,BRZ,25
+Audi,A5 quattro,25
+Audi,TTS Coupe,25
+BMW,428i xDrive Convertible,25
+Ford,MUSTANG,25
+Ford,MUSTANG,25
+Volkswagen,Eos,25
+Acura,TLX 2WD,25
+Acura,TLX 4WD,25
+Audi,A4 quattro,25
+Buick,VERANO,25
+Cadillac,ATS AWD,25
+Chevrolet,CAMARO,25
+KIA MOTORS CORPORATION,Forte Koup,25
+KIA MOTORS CORPORATION,Forte Koup,25
+Mitsubishi Motors Corporation,LANCER,25
+Volkswagen,CC,25
+Volkswagen,CC,25
+Volkswagen,Golf R,25
+Volkswagen,Golf R,25
+Volvo,S60 AWD,25
+Cadillac,CTS SEDAN,25
+Ford,Focus ST FWD,25
+Ford,FUSION AWD,25
+Honda,ACCORD,25
+Lincoln,MKZ AWD,25
+NISSAN,MAXIMA,25
+TOYOTA,CAMRY,25
+Cadillac,CT6,25
+Chevrolet,IMPALA,25
+HYUNDAI MOTOR COMPANY,Sonata Limited,25
+KIA MOTORS CORPORATION,Optima,25
+FIAT,500L,25
+Volvo,V60 AWD,25
+Mercedes-Benz,AMG GLA 45 4MATIC,25
+Chevrolet,COLORADO 2WD,25
+GMC,CANYON 2WD,25
+CHEVROLET,City Express Cargo Van,25
+Ford,Transit Connect Van 2WD,25
+Ford,TRANSIT CONNECT WAGON FWD,25
+NISSAN,NV200 Cargo Van,25
+FIAT,500X,25
+Ford,ESCAPE FWD,25
+Ford,ESCAPE FWD,25
+Jeep,Cherokee FWD,25
+Jeep,Cherokee FWD,25
+Jeep,Compass FWD,25
+Jeep,Patriot FWD,25
+Jeep,Renegade 4x2,25
+LEXUS,NX 200t,25
+Mitsubishi Motors Corporation,OUTLANDER SPORT 2WD,25
+Mitsubishi Motors Corporation,OUTLANDER SPORT 2WD,25
+Ford,ESCAPE AWD,25
+Subaru,FORESTER,25
+Subaru,FORESTER,25
+TOYOTA,RAV4 AWD,25
+TOYOTA,RAV4 Limited AWD/SE AWD,25
+Jeep,Grand Cherokee 4X2,25
+Land Rover,Range Rover Sport TDV6,25
+Land Rover,Range Rover TDV6,25
+Mercedes-Benz,SLK 350,24
+Porsche,Boxster,24
+Porsche,Boxster S,24
+Porsche,Cayman,24
+Porsche,Cayman S,24
+Audi,A5 Cabriolet quattro,24
+BMW,435i Convertible,24
+BMW,640i Convertible,24
+BMW,640i Coupe,24
+BMW,M235i,24
+BMW,M235i Convertible,24
+Ford,MUSTANG CONVERTIBLE,24
+Mercedes-Benz,E 400 (convertible),24
+Mercedes-Benz,E 400 (coupe),24
+BMW,435i Coupe,24
+BMW,435i Gran Coupe,24
+BMW,640i Gran Coupe,24
+Buick,VERANO,24
+Buick,VERANO,24
+Cadillac,ATS,24
+Chevrolet,CAMARO,24
+Mercedes-Benz,C 450 AMG,24
+Mercedes-Benz,CLS 400,24
+Acura,RLX,24
+Audi,A6 quattro,24
+Audi,A7 quattro,24
+BMW,535i,24
+Buick,REGAL,24
+Buick,REGAL,24
+Cadillac,CTS SEDAN,24
+Cadillac,CTS SEDAN AWD,24
+INFINITI,Q50 AWD,24
+Jaguar,XF,24
+LEXUS,ES 350,24
+LEXUS,GS 200t F SPORT,24
+TOYOTA,AVALON,24
+BMW,740i,24
+KIA MOTORS CORPORATION,Forte 5,24
+KIA MOTORS CORPORATION,Forte 5,24
+Audi,allroad quattro,24
+NISSAN,MURANO AWD,24
+NISSAN,MURANO FWD,24
+RAM,1500 HFE 4X2,24
+NISSAN,NV200 NYC Taxi,24
+RAM,Promaster City,24
+BMW,X3 sDrive 28i,24
+Ford,EDGE FWD,24
+Ford,EDGE FWD,24
+Jeep,Cherokee FWD,24
+Jeep,Compass FWD,24
+Jeep,Patriot FWD,24
+KIA MOTORS CORPORATION,Sorento FWD,24
+KIA MOTORS CORPORATION,Sportage FWD,24
+Mercedes-Benz,GLC 300,24
+Volvo,XC60 FWD,24
+BMW,X3 xDrive28i,24
+FIAT,500X AWD,24
+Jeep,Cherokee 4X4,24
+Jeep,Cherokee 4X4,24
+Jeep,Compass 4X4,24
+Jeep,Patriot 4X4,24
+Jeep,Renegade 4x4,24
+Land Rover,Range Rover Evoque,24
+LEXUS,NX 200t AWD,24
+LEXUS,NX 200t AWD F SPORT,24
+Mercedes-Benz,GLC 300 4MATIC,24
+Mitsubishi Motors Corporation,OUTLANDER SPORT 4WD,24
+Volvo,XC90 FWD,24
+Jeep,Grand Cherokee 4X4,24
+Mercedes-Benz,GLE 300 d 4MATIC,24
+Volkswagen,Touareg,24
+Mercedes-Benz,SL 400,23
+Porsche,Boxster S,23
+Porsche,Cayman S,23
+Porsche,911 Carrera,23
+Porsche,911 Carrera 4,23
+Porsche,911 Carrera Cabriolet,23
+Porsche,911 Carrera S,23
+BMW,435i xDrive Convertible,23
+BMW,640i xDrive Convertible,23
+BMW,640i xDrive Coupe,23
+BMW,M2,23
+BMW,M235i xDrive,23
+BMW,M235i xDrive Convertible,23
+Buick,CASCADA,23
+Mercedes-Benz,E 400 4MATIC (coupe),23
+Audi,Q3,23
+Audi,Q3 quattro,23
+BMW,340i,23
+BMW,340i xDrive,23
+BMW,435i Coupe,23
+BMW,435i xDrive Coupe,23
+BMW,435i xDrive Gran Coupe,23
+BMW,640i xDrive Gran Coupe,23
+Cadillac,ATS,23
+Chevrolet,CAMARO,23
+Subaru,WRX,23
+Volvo,S60 AWD,23
+Volvo,S60 CC AWD,23
+Volvo,S60 Inscription AWD,23
+BMW,535i xDrive,23
+Buick,REGAL,23
+Chrysler,200,23
+Dodge,Challenger,23
+INFINITI,Q50,23
+INFINITI,Q50S,23
+Jaguar,XF AWD,23
+LEXUS,GS 350,23
+Mercedes-Benz,E 350,23
+Mercedes-Benz,E 350,23
+Mercedes-Benz,E 350 4MATIC,23
+Mercedes-Benz,E 350 4MATIC,23
+Mercedes-Benz,E 400,23
+Mercedes-Benz,E 400 4MATIC,23
+Subaru,LEGACY,23
+Volkswagen,Passat,23
+BMW,335i xDrive Gran Turismo,23
+Chrysler,300,23
+Chrysler,300,23
+Dodge,Charger,23
+Dodge,Charger,23
+Ford,TAURUS FWD,23
+HYUNDAI MOTOR COMPANY,Azera,23
+Volvo,V60 AWD,23
+Volvo,V60CC AWD,23
+Chevrolet,COLORADO 4WD,23
+GMC,CANYON 4WD,23
+RAM,1500 4X2,23
+Ford,Transit Connect Van 2WD,23
+Ford,TRANSIT CONNECT VAN FFV,23
+NISSAN,QUEST,23
+Acura,MDX 2WD,23
+Acura,RDX 2WD,23
+Honda,PILOT 2WD,23
+HYUNDAI MOTOR COMPANY,Santa Fe Sport FWD,23
+INFINITI,QX60 FWD,23
+Jeep,Compass FWD,23
+Jeep,Patriot FWD,23
+KIA MOTORS CORPORATION,Sorento FWD,23
+LEXUS,RX 350,23
+Lincoln,MKC  FWD,23
+NISSAN,PATHFINDER 2WD,23
+Volkswagen,Tiguan,23
+Audi,Q5,23
+BMW,X4 xDrive28i,23
+Chevrolet,EQUINOX AWD,23
+Chevrolet,EQUINOX AWD,23
+Ford,EDGE AWD,23
+Ford,ESCAPE AWD,23
+GMC,TERRAIN AWD,23
+HYUNDAI MOTOR COMPANY,Tucson AWD,23
+Jeep,Cherokee 4X4,23
+Jeep,Cherokee 4x4 Active Drive II,23
+KIA MOTORS CORPORATION,Sorento AWD,23
+Mitsubishi Motors Corporation,OUTLANDER 4WD,23
+Volkswagen,Tiguan 4Motion,23
+Porsche,Cayenne Diesel,23
+Volvo,XC90 AWD,23
+Jaguar,F-TYPE Convertible,22
+Jaguar,F-TYPE Coupe,22
+Jaguar,F-TYPE S Convertible,22
+Jaguar,F-TYPE S Coupe,22
+Mercedes-Benz,AMG SLK 55,22
+Porsche,Boxster GTS,22
+Porsche,Cayman GTS,22
+Porsche,911 Carrera,22
+Porsche,911 Carrera 4,22
+Porsche,911 Carrera 4 Cabriolet,22
+Porsche,911 Carrera 4 Cabriolet,22
+Porsche,911 Carrera 4S,22
+Porsche,911 Carrera Cabriolet,22
+Porsche,911 Carrera S,22
+Porsche,911 Carrera S Cabriolet,22
+Porsche,911 Carrera S Cabriolet,22
+Porsche,911 Targa 4,22
+BMW,M235i,22
+BMW,M235i Convertible,22
+Ford,MUSTANG,22
+LEXUS,RC 350,22
+BMW,435i xDrive Coupe,22
+Cadillac,ATS AWD,22
+LEXUS,IS 350,22
+Mercedes-Benz,CLS 400 4MATIC,22
+Buick,LACROSSE,22
+Buick,REGAL AWD,22
+Cadillac,CTS SEDAN AWD,22
+Chrysler,200 AWD,22
+Ford,FOCUS RS AWD,22
+Honda,ACCORD,22
+INFINITI,Q50 AWD,22
+INFINITI,Q50S AWD Red Sport,22
+INFINITI,Q50S Red Sport,22
+LEXUS,GS 350 AWD,22
+LEXUS,GS 350 F SPORT,22
+Lincoln,MKZ FWD,22
+Audi,A8L,22
+Audi,A8L,22
+BMW,535i Gran Turismo,22
+Cadillac,CT6 AWD,22
+Cadillac,XTS,22
+Chevrolet,IMPALA,22
+Chevrolet,IMPALA,22
+Chevrolet,IMPALA LIMITED,22
+Ford,Special Service Police FWD,22
+HYUNDAI MOTOR COMPANY,Azera Limited,22
+HYUNDAI MOTOR COMPANY,Genesis RWD,22
+KIA MOTORS CORPORATION,Cadenza,22
+Porsche,Panamera,22
+Mercedes-Benz,E 350 4Matic (Wagon),22
+Chevrolet,COLORADO 2WD,22
+Chevrolet,COLORADO 2WD,22
+GMC,CANYON 2WD,22
+GMC,CANYON 2WD,22
+Ford,F150 2WD,22
+RAM,1500 4X4,22
+Ford,TRANSIT CONNECT WAGON FFV,22
+Ford,TRANSIT CONNECT WAGON FWD,22
+Ford,TRANSIT CONNECT WAGON LWB FFV,22
+Ford,Transit Connect Wagon LWB FWD,22
+Mercedes-Benz,Metris (Cargo Van),22
+Mercedes-Benz,Metris (Passenger Van),22
+Honda,ODYSSEY 2WD,22
+Acura,MDX 2WD,22
+Honda,PILOT 2WD,22
+HYUNDAI MOTOR COMPANY,Santa Fe Sport FWD,22
+HYUNDAI MOTOR COMPANY,Santa Fe Sport ULTIMATE FWD,22
+KIA MOTORS CORPORATION,Sportage SX FWD,22
+TOYOTA,HIGHLANDER,22
+Acura,MDX 4WD,22
+Acura,RDX 4WD,22
+BMW,X3 xDrive35i,22
+BMW,X4 xDrive35i,22
+Buick,ENVISION AWD,22
+Honda,PILOT 4WD,22
+INFINITI,QX60 AWD,22
+Jeep,Cherokee 4x4 Active Drive II,22
+Jeep,Cherokee Trailhawk 4X4,22
+Jeep,Cherokee Trailhawk 4X4,22
+Jeep,Compass 4X4,22
+Jeep,Patriot 4X4,22
+KIA MOTORS CORPORATION,Sorento AWD,22
+KIA MOTORS CORPORATION,Sportage AWD,22
+Land Rover,Discovery Sport,22
+LEXUS,RX 350 AWD,22
+Lincoln,MKC  AWD,22
+NISSAN,PATHFINDER 4WD,22
+Subaru,OUTBACK,22
+Volvo,XC60 AWD,22
+Volvo,XC60 AWD,22
+Volvo,XC70 AWD,22
+Dodge,Durango RWD,22
+Ford,EXPLORER FWD,22
+Jeep,Grand Cherokee 4X2,22
+Mercedes-Benz,GL 350 BLUETEC 4MATIC,22
+Volvo,XC90 AWD,22
+Chevrolet,CORVETTE,21
+Jaguar,F-TYPE S AWD Convertible,21
+Jaguar,F-TYPE S AWD Coupe,21
+NISSAN,370Z,21
+NISSAN,370Z,21
+NISSAN,370Z Roadster,21
+Porsche,911 Carrera 4 GTS,21
+Porsche,911 Carrera 4 GTS,21
+Porsche,911 Carrera 4 GTS Cabriolet,21
+Porsche,911 Carrera 4S,21
+Porsche,911 Carrera 4S Cabriolet,21
+Porsche,911 Carrera 4S Cabriolet,21
+Porsche,911 Carrera GTS,21
+Porsche,911 Carrera GTS,21
+Porsche,911 Carrera GTS Cabriolet,21
+Porsche,911 Targa 4,21
+Porsche,911 Targa 4 GTS,21
+Porsche,911 Targa 4 GTS,21
+Porsche,911 Targa 4S,21
+Porsche,911 Targa 4S,21
+Audi,S5,21
+Audi,S5 Cabriolet,21
+BMW,M2,21
+Ford,MUSTANG,21
+LEXUS,RC 300 AWD,21
+LEXUS,RC 350 AWD,21
+Mercedes-Benz,E 550 (coupe),21
+Audi,S4,21
+Chevrolet,CAMARO,21
+LEXUS,IS 300 AWD,21
+LEXUS,IS 350 AWD,21
+Mercedes-Benz,CLS 550,21
+Subaru,WRX,21
+Volvo,S60 AWD,21
+Volvo,S60 Polestar AWD,21
+Audi,S6,21
+Audi,S7,21
+Buick,LACROSSE,21
+INFINITI,Q50S AWD,21
+INFINITI,Q70,21
+Mercedes-Benz,E 550 4MATIC,21
+BMW,535i xDrive Gran Turismo,21
+Cadillac,CT6 AWD,21
+Chrysler,300 AWD,21
+Chrysler,300 AWD,21
+Dodge,Charger AWD,21
+Dodge,Charger AWD,21
+Ford,TAURUS FWD,21
+Ford,TAURUS FWD FFV,21
+Jaguar,XJ,21
+Jaguar,XJL,21
+Porsche,Panamera 4,21
+Porsche,Panamera 4S,21
+Porsche,Panamera S,21
+Volvo,V60 AWD,21
+Volvo,V60 Polestar AWD,21
+Chevrolet,COLORADO 2WD,21
+GMC,CANYON 2WD,21
+NISSAN,FRONTIER 2WD,21
+TOYOTA,TACOMA 2WD,21
+TOYOTA,TACOMA 2WD,21
+Chevrolet,COLORADO 4WD,21
+GMC,CANYON 4WD,21
+Ford,F150 2.7L 2WD GVWR>6649 LBS PAYLOAD PACKAGE,21
+RAM,1500 HFE 4X2,21
+Lincoln,MKT LIVERY FWD,21
+KIA MOTORS CORPORATION,Sedona SX,21
+TOYOTA,SIENNA,21
+Dodge,Journey,21
+Ford,EDGE FWD,21
+HYUNDAI MOTOR COMPANY,Santa Fe FWD,21
+KIA MOTORS CORPORATION,Sorento FWD,21
+Lincoln,MKX FWD,21
+TOYOTA,HIGHLANDER,21
+Acura,MDX 4WD,21
+Audi,Q5,21
+BMW,X4 M40i,21
+Honda,PILOT 4WD,21
+HYUNDAI MOTOR COMPANY,Santa Fe Sport AWD,21
+HYUNDAI MOTOR COMPANY,Santa Fe Sport AWD,21
+Jeep,Compass 4X4,21
+Jeep,Patriot 4X4,21
+KIA MOTORS CORPORATION,Sorento AWD FE,21
+KIA MOTORS CORPORATION,Sportage SX AWD,21
+Lincoln,MKC  AWD,21
+NISSAN,PATHFINDER 4WD PLATINUM,21
+BMW,X5 sDrive35i,21
+BMW,X6 sDrive35i,21
+Dodge,Durango AWD,21
+Ford,EXPLORER AWD,21
+Jeep,Grand Cherokee 4X4,21
+Porsche,Cayenne,21
+BMW,Z4 sDrive35i,20
+BMW,Z4 sDrive35is,20
+Chevrolet,CORVETTE,20
+NISSAN,370Z Roadster,20
+Porsche,Boxster Spyder,20
+Porsche,Cayman GT4,20
+Porsche,911 Carrera 4 GTS Cabriolet,20
+Porsche,911 Carrera GTS Cabriolet,20
+Porsche,911 Turbo,20
+Porsche,911 Turbo Cabriolet,20
+Porsche,911 Turbo S,20
+Porsche,911 Turbo S Cabriolet,20
+Audi,S5,20
+BMW,650i Convertible,20
+BMW,650i Coupe,20
+BMW,M4 Convertible,20
+Mercedes-Benz,E 550 (convertible),20
+Audi,S4,20
+BMW,650i Gran Coupe,20
+BMW,M3,20
+BMW,M4 Coupe,20
+Chevrolet,CAMARO,20
+Mercedes-Benz,AMG C 63,20
+Mercedes-Benz,AMG C 63 S,20
+Mercedes-Benz,CLS 550 4MATIC,20
+Volkswagen,CC 4Motion,20
+BMW,550i,20
+Buick,LACROSSE AWD,20
+Chevrolet,Impala Bi-Fuel (CNG),20
+INFINITI,Q70 AWD,20
+LEXUS,LS 600h L,20
+Lincoln,MKZ AWD,20
+BMW,750i,20
+Cadillac,XTS AWD,20
+Jaguar,XJ AWD,20
+Jaguar,XJL AWD,20
+KIA MOTORS CORPORATION,K900,20
+Lincoln,MKS FWD,20
+Mercedes-Benz,S 550,20
+Porsche,Panamera 4S Executive,20
+INFINITI,QX50,20
+INFINITI,QX50 AWD,20
+Chevrolet,COLORADO 4WD,20
+GMC,CANYON 4WD,20
+TOYOTA,TACOMA 4WD,20
+TOYOTA,TACOMA 4WD,20
+TOYOTA,TACOMA 4WD,20
+Chevrolet,C15 SILVERADO 2WD,20
+Chevrolet,C15 SILVERADO 2WD,20
+Ford,F150 2WD,20
+Ford,F150 2WD FFV,20
+GMC,C15 SIERRA 2WD,20
+GMC,C15 SIERRA 2WD,20
+RAM,1500 4X2,20
+Ford,F150 4WD,20
+Chrysler,Town & Country,20
+Chrysler,Town & Country,20
+Dodge,Grand Caravan,20
+Dodge,Grand Caravan,20
+KIA MOTORS CORPORATION,Sedona,20
+Chevrolet,EQUINOX FWD,20
+GMC,TERRAIN FWD,20
+HYUNDAI MOTOR COMPANY,Santa Fe Ultimate FWD,20
+Lincoln,MKX FWD,20
+Ford,EDGE AWD,20
+Ford,EDGE AWD,20
+HYUNDAI MOTOR COMPANY,Santa Fe AWD,20
+Volvo,XC60 AWD,20
+Ford,EXPLORER FFV 2WD,20
+Ford,EXPLORER FWD,20
+Mercedes-Benz,GLE 350,20
+BMW,X5 xDrive35i,20
+BMW,X6 xDrive35i,20
+Mercedes-Benz,GLE 400 4MATIC,20
+Mercedes-Benz,GLE 450 AMG (coupe),20
+Porsche,Cayenne S,20
+TOYOTA,HIGHLANDER AWD,20
+BMW,M4 GTS,19
+Jaguar,F-TYPE Convertible Manual,19
+Jaguar,F-TYPE Coupe Manual,19
+McLaren,570S Coupe,19
+Mercedes-Benz,AMG SL 63,19
+Mercedes-Benz,SL 550,19
+Ferrari,California T,19
+BMW,650i xDrive Coupe,19
+BMW,M4 Convertible,19
+Ford,MUSTANG,19
+Ford,MUSTANG,19
+HYUNDAI MOTOR COMPANY,Genesis Coupe,19
+HYUNDAI MOTOR COMPANY,Genesis Coupe,19
+LEXUS,RC F,19
+NISSAN,GT-R,19
+Bentley,Continental GT,19
+BMW,M3,19
+BMW,M4 Coupe,19
+Cadillac,ATS-V,19
+Cadillac,ATS-V,19
+Chevrolet,CAMARO,19
+LEXUS,GS F,19
+Mercedes-Benz,S 550 4MATIC (coupe),19
+Subaru,WRX,19
+Audi,S8,19
+BMW,550i xDrive,19
+Cadillac,CTS SEDAN,19
+Dodge,Challenger,19
+INFINITI,Q70,19
+LEXUS,LS 460,19
+LEXUS,LS 460 L,19
+MASERATI,Ghibli  S RWD,19
+MASERATI,Ghibli V6 Rear Wheel Drive (RWD),19
+MASERATI,Ghibli V6 SQ4 AWD,19
+Mercedes-Benz,AMG E 63 4MATIC,19
+BMW,750i xDrive,19
+Chrysler,300,19
+Dodge,Charger,19
+Ford,TAURUS AWD,19
+Ford,TAURUS AWD,19
+Ford,TAURUS AWD FFV,19
+HYUNDAI MOTOR COMPANY,Genesis AWD,19
+Lincoln,MKS AWD,19
+Lincoln,MKS AWD,19
+Mercedes-Benz,S 550 4MATIC,19
+Porsche,Panamera GTS,19
+NISSAN,FRONTIER 2WD,19
+NISSAN,FRONTIER 2WD,19
+TOYOTA,TACOMA 4WD,19
+Chevrolet,C15 SILVERADO 2WD,19
+Chevrolet,C15 SILVERADO 2WD,19
+GMC,C15 SIERRA 2WD,19
+GMC,C15 SIERRA 2WD,19
+Chevrolet,K15 SILVERADO 4WD,19
+Ford,F150 2.7L 4WD GVWR>6799 LBS PAYLOAD PACKAGE,19
+Ford,F150 4WD FFV,19
+GMC,K15 SIERRA 4WD,19
+RAM,1500 4X4,19
+KIA MOTORS CORPORATION,Sedona SXL,19
+TOYOTA,SIENNA AWD,19
+Dodge,Journey,19
+INFINITI,QX70 RWD,19
+Audi,SQ5,19
+Dodge,Journey AWD,19
+HYUNDAI MOTOR COMPANY,Santa Fe Ultimate AWD,19
+KIA MOTORS CORPORATION,Sorento AWD,19
+Lincoln,MKX AWD,19
+Lincoln,MKX AWD,19
+Porsche,Macan S,19
+Porsche,Macan Turbo,19
+Cadillac,SRX,19
+Ford,Flex FWD,19
+Lincoln,MKT FWD,19
+TOYOTA,4RUNNER 2WD,19
+Ford,EXPLORER AWD,19
+Ford,EXPLORER FFV AWD,19
+Land Rover,Range Rover,19
+Land Rover,Range Rover LWB,19
+Land Rover,Range Rover Sport,19
+Mercedes-Benz,GL 450 4MATIC,19
+Mercedes-Benz,GLE 350 4MATIC,19
+Mercedes-Benz,GLE 350 4MATIC,19
+Porsche,Cayenne GTS,19
+Volkswagen,Touareg,19
+Chevrolet,CORVETTE,18
+Ferrari,488 GTB,18
+Ferrari,488 GTB,18
+Jaguar,F-TYPE R AWD Convertible,18
+Jaguar,F-TYPE R AWD Coupe,18
+Jaguar,F-TYPE R Convertible,18
+Jaguar,F-TYPE S Convertible Manual,18
+Jaguar,F-TYPE S Coupe Manual,18
+McLaren,650S Coupe,18
+McLaren,650S Spider,18
+McLaren,675LT Coupe,18
+Mercedes-Benz,AMG GT S,18
+Ferrari,California T,18
+BMW,650i xDrive Convertible,18
+Ford,MUSTANG CONVERTIBLE,18
+BMW,650i xDrive Gran Coupe,18
+BMW,Alpina B6 Gran Coupe xDrive,18
+Mercedes-Benz,AMG CLS 63 S 4MATIC,18
+Mercedes-Benz,AMG S 63 4MATIC (coupe),18
+Audi,RS7,18
+Dodge,Challenger,18
+Dodge,Challenger,18
+Dodge,Challenger SRT8,18
+INFINITI,Q70 AWD,18
+LEXUS,LS 460 AWD,18
+LEXUS,LS 460 L AWD,18
+Mercedes-Benz,AMG E 63 S 4MATIC,18
+Cadillac,XTS AWD,18
+Dodge,Charger,18
+Dodge,Charger SRT8,18
+HYUNDAI MOTOR COMPANY,Equus,18
+HYUNDAI MOTOR COMPANY,Genesis RWD,18
+Jaguar,XJ,18
+Jaguar,XJL,18
+KIA MOTORS CORPORATION,K900,18
+MASERATI,QUATTROPORTE S,18
+MASERATI,QUATTROPORTE SQ4 V6,18
+Mercedes-Benz,AMG S 63 4MATIC,18
+Porsche,Panamera Turbo,18
+Porsche,Panamera Turbo Executive,18
+Porsche,Panamera Turbo S,18
+Porsche,Panamera Turbo S Executive,18
+Mercedes-Benz,AMG E 63 S 4MATIC (stat. wagon),18
+NISSAN,FRONTIER 2WD,18
+NISSAN,FRONTIER 4WD,18
+TOYOTA,Tacoma 4WD Double Cab,18
+Chevrolet,C15 SILVERADO 2WD,18
+Ford,F150 2WD FFV,18
+Ford,F150 3.5L 2WD GVWR>7599 LBS PAYLOAD PACKAGE,18
+GMC,C15 SIERRA 2WD,18
+Chevrolet,K15 SILVERADO 4WD,18
+Chevrolet,K15 SILVERADO 4WD,18
+Chevrolet,K15 SILVERADO 4WD,18
+Ford,F150 4WD,18
+GMC,K15 SIERRA 4WD,18
+GMC,K15 SIERRA 4WD,18
+GMC,K15 SIERRA 4WD,18
+Lincoln,MKT LIVERY AWD,18
+Chevrolet,EQUINOX AWD,18
+GMC,TERRAIN AWD,18
+INFINITI,QX70 AWD,18
+Jeep,Wrangler 4X4,18
+Jeep,Wrangler 4X4,18
+Jeep,Wrangler Unlimited 4X4,18
+Jeep,Wrangler Unlimited 4X4,18
+Buick,ENCLAVE FWD,18
+Chevrolet,C1500 SUBURBAN 2WD,18
+Chevrolet,C1500 SUBURBAN 2WD,18
+Chevrolet,C1500 TAHOE 2WD,18
+Chevrolet,C1500 TAHOE 2WD,18
+Chevrolet,TRAVERSE FWD,18
+Ford,Expedition 2WD,18
+GMC,ACADIA FWD,18
+GMC,C1500 YUKON 2WD,18
+GMC,C1500 YUKON 2WD,18
+GMC,C1500 YUKON XL 2WD,18
+GMC,C1500 YUKON XL 2WD,18
+Lincoln,Navigator 2WD,18
+Cadillac,SRX AWD,18
+Chevrolet,K1500 SUBURBAN 4WD,18
+Chevrolet,K1500 SUBURBAN 4WD,18
+Chevrolet,K1500 TAHOE 4WD,18
+Chevrolet,K1500 TAHOE 4WD,18
+Ford,EXPLORER AWD,18
+Ford,FLEX AWD,18
+GMC,K1500 YUKON 4WD,18
+GMC,K1500 YUKON 4WD,18
+GMC,K1500 YUKON XL 4WD,18
+GMC,K1500 YUKON XL 4WD,18
+TOYOTA,4RUNNER 4WD,18
+TOYOTA,4RUNNER 4WD,18
+Lamborghini,Huracan,17
+Mercedes-Benz,AMG SL 65,17
+Porsche,911 GT3,17
+Aston Martin Lagonda Ltd,Rapide S,17
+Bentley,Continental GT Convertible,17
+BMW,M6 Convertible,17
+BMW,M6 Coupe,17
+BMW,M6 Gran Coupe,17
+Bentley,Flying Spur,17
+BMW,M5,17
+Cadillac,CTS-V,17
+Dodge,Challenger,17
+Dodge,Challenger SRT8,17
+Audi,A8L,17
+Chevrolet,SS,17
+MASERATI,QUATTROPORTE GTS,17
+NISSAN,FRONTIER 4WD,17
+Chevrolet,C15 SILVERADO 2WD,17
+GMC,C15 SIERRA 2WD,17
+RAM,1500 4X2,17
+Chevrolet,K15 SILVERADO 4WD,17
+Chevrolet,K15 SILVERADO 4WD,17
+Ford,F150 3.5L 4WD GVWR>7599 LBS PAYLOAD PACKAGE,17
+Ford,F150 4WD FFV,17
+GMC,K15 SIERRA 4WD,17
+GMC,K15 SIERRA 4WD,17
+RAM,1500 4X4,17
+Cadillac,XTS HEARSE,17
+Cadillac,XTS LIMO,17
+Chevrolet,C15 SILVERADO 2WD CAB CHASSIS,17
+Chevrolet,K15 SILVERADO 4WD CAB CHASSIS,17
+GMC,C15 SIERRA 2WD CAB CHASSIS,17
+GMC,K15 SIERRA 4WD CAB CHASSIS,17
+Cadillac,ESCALADE 2WD,17
+Dodge,Durango RWD,17
+Ford,Expedition EL 2WD,17
+GMC,C1500 YUKON 2WD,17
+GMC,C1500 YUKON XL 2WD,17
+Lincoln,Navigator L 2WD,17
+BMW,X5 xDrive50i,17
+BMW,X6 xDrive50i,17
+Buick,ENCLAVE AWD,17
+Cadillac,ESCALADE 4WD,17
+Chevrolet,TRAVERSE AWD,17
+Dodge,Durango AWD,17
+Ford,Expedition 4WD,17
+Ford,FLEX AWD,17
+GMC,ACADIA AWD,17
+GMC,K1500 YUKON 4WD,17
+Jeep,Grand Cherokee 4X4,17
+LEXUS,GX 460,17
+Lincoln,MKT AWD,17
+Lincoln,Navigator 4WD,17
+Porsche,Cayenne Turbo,17
+Porsche,Cayenne Turbo S,17
+Aston Martin Lagonda Ltd,V8 Vantage,16
+Aston Martin Lagonda Ltd,V8 Vantage S,16
+Aston Martin Lagonda Ltd,Vantage GT,16
+Chevrolet,CORVETTE,16
+Lamborghini,Huracan Spyder,16
+Porsche,911 GT3RS,16
+Aston Martin Lagonda Ltd,Vanquish,16
+BMW,M6 Convertible,16
+BMW,M6 Coupe,16
+Ford,SHELBY GT350 MUSTANG,16
+MASERATI,GRANTURISMO,16
+Roush,Roush Stage 3 Mustang,16
+Roush,Roush Stage 3 Mustang,16
+BMW,M6 Gran Coupe,16
+BMW,M5,16
+Dodge,Challenger SRT8,16
+Dodge,Challenger SRT8,16
+Chevrolet,SS,16
+Dodge,Charger SRT8,16
+Mercedes-Benz,S 600,16
+Ford,F150 5.0L 2WD FFV GVWR>7599 LBS PAYLOAD PACKAGE,16
+RAM,1500 4X2,16
+TOYOTA,TUNDRA 2WD,16
+Ford,F150 5.0L 4WD FFV GVWR>7599 LBS PAYLOAD PACKAGE,16
+TOYOTA,TUNDRA 4WD,16
+Ford,Transit T150 Wagon,16
+Ford,Transit T150 Wagon FFV,16
+Chevrolet,COLORADO CAB CHASSIS 2WD,16
+GMC,CANYON CAB CHASSIS 2WD,16
+INFINITI,QX80 2WD,16
+BMW,X5 M,16
+BMW,X6 M,16
+Ford,Expedition EL 4WD,16
+GMC,K1500 YUKON XL 4WD,16
+Land Rover,LR4,16
+Land Rover,Range Rover,16
+Land Rover,Range Rover LWB,16
+Land Rover,Range Rover Sport,16
+Lincoln,Navigator L 4WD,16
+Aston Martin Lagonda Ltd,V8 Vantage,15
+Aston Martin Lagonda Ltd,V8 Vantage S,15
+Aston Martin Lagonda Ltd,Vantage GT,15
+Dodge,Viper SRT,15
+Aston Martin Lagonda Ltd,DB9,15
+Bentley,Continental GT Convertible,15
+MASERATI,GRANTURISMO CONVERTIBLE,15
+Bentley,Continental GT,15
+Mercedes-Benz,AMG S 65 (coupe),15
+Bentley,Flying Spur,15
+Rolls-Royce Motor Cars Limited,Wraith,15
+Mercedes-Benz,AMG S 65,15
+Mercedes-Benz,Maybach S 600,15
+Rolls-Royce Motor Cars Limited,Ghost,15
+Rolls-Royce Motor Cars Limited,Ghost EWB,15
+TOYOTA,TUNDRA 2WD,15
+TOYOTA,TUNDRA 2WD FFV,15
+RAM,1500 4X4,15
+TOYOTA,TUNDRA 4WD,15
+TOYOTA,TUNDRA 4WD FFV,15
+TOYOTA,SEQUOIA 2WD,15
+INFINITI,QX80 4WD,15
+Jeep,Grand Cherokee SRT8 4x4,15
+LEXUS,LX 570,15
+Mercedes-Benz,AMG GLE 63,15
+Mercedes-Benz,AMG GLE 63 S,15
+Mercedes-Benz,AMG GLE 63 S (coupe),15
+Mercedes-Benz,GL 550 4MATIC,15
+TOYOTA,LAND CRUISER WAGON 4WD,15
+Aston Martin Lagonda Ltd,V12 Vantage S,14
+Rolls-Royce Motor Cars Limited,Dawn,14
+Rolls-Royce Motor Cars Limited,Phantom Coupe,14
+Rolls-Royce Motor Cars Limited,Phantom Drophead Coupe,14
+Rolls-Royce Motor Cars Limited,Phantom,14
+Rolls-Royce Motor Cars Limited,Phantom EWB,14
+Mercedes-Benz,AMG GL 63,14
+TOYOTA,SEQUOIA 4WD,14
+TOYOTA,SEQUOIA 4WD FFV,14
+Ferrari,F12,13
+Ferrari,F12,13
+Ferrari,F12 tdf,13
+Ferrari,F60 America,13
+Ferrari,F60 America,13
+Lamborghini,Aventador Coupe,13
+Pagani Automobili S.p.A.,Huayra Coupe,13
+Bentley,Mulsanne,13
+Ferrari,FF,13
+Ferrari,FF,13
+Roush,F150 Pickup 2WD,13
+Roush,F150 Pickup 4WD,13
+Chevrolet,G2500 EXPRESS 2WD PASS MDPV,13
+GMC,G2500 SAVANA 2WD PASS MDPV,13
+Mercedes-Benz,AMG G 63,13
+Mercedes-Benz,G 550,13
+Ferrari,F12 tdf,12
+Lamborghini,Aventador Roadster,12
+Chevrolet,G3500 EXPRESS 2WD PASS MDPV,12
+GMC,G3500 SAVANA 2WD PASS MDPV,12
+Mercedes-Benz,AMG G65,12
+============================================================
