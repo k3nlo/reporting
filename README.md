@@ -22,6 +22,6 @@ How to Run:
 
 Known Limitations: 
 - Structure of the project needs to be improved. Used Spring boot when it is not a micro-service.
-- Issue: regular junit tests (such as in QueryTests) cannot be run. Need to learn how to write unit tests for spring boot.
+- Issue: regular junit tests (such as in QueryTests.java) cannot be run. Need to learn how to write unit tests for spring boot.
 - .csv file are included in the project.
 
