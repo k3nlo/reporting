@@ -21,7 +21,7 @@ How to Run:
 - Run the .jar file with the command: java -jar ...\absolute-path-to-the-jar\reporting-0.0.1-SNAPSHOT.jar
 
 Known Limitations: 
-- structure of the project can be improved.
-- unit testing
-- pre-packaged .csv file
+- Structure of the project needs be improved. Usage of Spring boot when it is not a micro-service.
+- Issue: regular junit tests (such as in QueryTests) cannot be run. Need to learn how to write unit tests for spring boot.
+- .csv file are included in the project.
 
