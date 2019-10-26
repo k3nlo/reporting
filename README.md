@@ -3,6 +3,13 @@ Small java project (Spring-boot, H2 & JDBC) that takes 2 .csv files, loads them 
 
 Developed on Windows 10 with IntelliJ
 
+How to access the in memory H2 Database:
+- Comment out the last line in the main() method
+- Run the project from within the IDE.
+- database is accessible at http://localhost:8080/h2-console
+- jdbc url: jdbc:h2:mem:testdb | Username: sa | no password.
+- individual sql queries can be tried (...\src\main\resources\workingQueries.sql)
+
 How to Build:
 - Import or clone this project in your IDE.
 - In a command-line prompt navigate (cd) to: project-path...\reporting\

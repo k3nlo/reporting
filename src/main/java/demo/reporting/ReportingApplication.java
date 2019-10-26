@@ -92,7 +92,7 @@ public class ReportingApplication {
 		System.out.println("The report has been completed and is available at: "+ file.getAbsolutePath());
 		System.out.println(strSeparator);
 
-
+		//TODO: COMMENT THIS OUT IF YOU DON'T WANT THE APPLICATION TO TERMINATE.
 		applicationContext.close();
 	}
 }
